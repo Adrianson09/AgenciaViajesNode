@@ -6,6 +6,7 @@
   "scripts": {
     "dev" : "nodemon index.js"
   },
+  "type": "module",
   "author": "Adrian Guerrero",
   "license": "ISC",
   "dependencies": {
