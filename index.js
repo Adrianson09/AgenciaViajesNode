@@ -24,6 +24,9 @@ app.use((req, res, next) => {
    return next();
 
 })
+// Agregar BodyParser para el form
+app.use(express.urlencoded({extend: true}));
+
 
 // Definir la carpeta Publica
 app.use(express.static('public'));
